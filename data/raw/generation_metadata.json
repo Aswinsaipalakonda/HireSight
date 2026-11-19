@@ -1,0 +1,102 @@
+{
+  "seed": 42,
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "row_counts": {
+    "candidates": 3512,
+    "jobs": 45,
+    "recruitment_sources": 7,
+    "applications": 8000,
+    "screening_results": 7551,
+    "application_stage_history": 23835,
+    "offers": 869,
+    "source_costs": 84
+  },
+  "outcome_summary": {
+    "rejected": 6209,
+    "withdrawn": 712,
+    "hired": 613,
+    "interview": 226,
+    "declined": 134,
+    "offer": 70,
+    "screening": 36
+  },
+  "near_duplicate_candidate_pairs": [
+    {
+      "duplicate_candidate_id": 3501,
+      "original_candidate_id": 2713
+    },
+    {
+      "duplicate_candidate_id": 3502,
+      "original_candidate_id": 3482
+    },
+    {
+      "duplicate_candidate_id": 3503,
+      "original_candidate_id": 2471
+    },
+    {
+      "duplicate_candidate_id": 3504,
+      "original_candidate_id": 1797
+    },
+    {
+      "duplicate_candidate_id": 3505,
+      "original_candidate_id": 2183
+    },
+    {
+      "duplicate_candidate_id": 3506,
+      "original_candidate_id": 1854
+    },
+    {
+      "duplicate_candidate_id": 3507,
+      "original_candidate_id": 3049
+    },
+    {
+      "duplicate_candidate_id": 3508,
+      "original_candidate_id": 2356
+    },
+    {
+      "duplicate_candidate_id": 3509,
+      "original_candidate_id": 2979
+    },
+    {
+      "duplicate_candidate_id": 3510,
+      "original_candidate_id": 744
+    },
+    {
+      "duplicate_candidate_id": 3511,
+      "original_candidate_id": 1902
+    },
+    {
+      "duplicate_candidate_id": 3512,
+      "original_candidate_id": 2517
+    }
+  ],
+  "invalid_date_order_stage_event_ids": [
+    15900,
+    7516,
+    19318,
+    8160,
+    8701,
+    11901,
+    8239,
+    10709
+  ],
+  "injected_quality_issues": {
+    "casing_whitespace_candidates_city": 40,
+    "casing_whitespace_candidates_education": 30,
+    "near_duplicate_candidate_profiles": 12,
+    "casing_whitespace_jobs_department": 8,
+    "casing_whitespace_jobs_employment_type": 6,
+    "missing_source_id_applications": 15,
+    "out_of_range_screening_scores": 10,
+    "casing_whitespace_stage_name": 100,
+    "casing_whitespace_stage_status": 50,
+    "casing_whitespace_screening_decision": 40,
+    "invalid_date_order_stage_rows": 8,
+    "missing_experience_years": 176,
+    "missing_highest_education": 105
+  },
+  "notes": "All data is synthetic. No real names, emails, phone numbers or addresses. AI screening scores are simulated with intentional overlap between outcomes; no causal relationship is implied. Raw files are immutable; run scripts/clean_data.py (Phase 2) to produce data/processed outputs."
+}

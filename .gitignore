@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Power BI lock files
+*.PBIX.Lock
+
+# Large generated artifacts are tracked intentionally (small synthetic CSVs).
+# If dataset size grows, revisit this decision.

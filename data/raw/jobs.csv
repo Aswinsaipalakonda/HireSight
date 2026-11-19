@@ -1,0 +1,46 @@
+job_id,job_title,department,location,employment_type,salary_min_inr,salary_max_inr,posted_date,closed_date,job_status
+1,Software Engineer,Technology,Lucknow,Full-time,700000.0,2200000.0,2026-08-23,,on hold
+2,Data Analyst,Technology,Bengaluru,Full-time,500000.0,1400000.0,2026-08-19,2026-12-30,closed
+3,QA Engineer,Technology,Delhi NCR,Full-time,450000.0,1100000.0,2026-10-08,,open
+4,DevOps Engineer,Technology,Bengaluru,Full-time,800000.0,2400000.0,2026-06-18,,open
+5,Backend Developer,Technology,Chennai,Full-time,700000.0,2100000.0,2026-10-22,,open
+6,Frontend Developer,Technology,Bengaluru,Full-time,600000.0,1800000.0,2026-01-14,,open
+7,Data Scientist,Technology,Chennai,Full-time,900000.0,2800000.0,2026-04-23,2026-07-25,closed
+8,Systems Administrator,Technology,Pune,Full-time,450000.0,1200000.0,2026-03-10,2026-05-10,closed
+9,Security Analyst,Technology,Delhi NCR,Full-time,600000.0,1800000.0,2026-04-05,,open
+10,Engineering Manager,Technology,Kolkata,Full-time,1800000.0,3600000.0,2026-07-26,2026-09-29,closed
+11,Product Support Engineer,Technology,Hyderabad,Full-time,450000.0,1100000.0,2026-07-21,2026-11-24,closed
+12,Mobile Developer,Technology,Hyderabad,Contract,600000.0,1900000.0,2026-02-12,2026-06-07,closed
+13,Sales Executive,Sales,Delhi NCR,Full-time,300000.0,700000.0,2026-08-20,2026-12-01,closed
+14,Inside Sales Executive,Sales,Ahmedabad,Full-time,280000.0,650000.0,2026-01-10,2026-03-18,closed
+15,Sales Manager,Sales,Pune,Full-time,700000.0,1600000.0,2026-03-12,2026-05-25,closed
+16,Business Development Exec,Sales,Ahmedabad,Full-time,320000.0,750000.0,2026-06-18,2026-10-10,closed
+17,Key Account Manager,Sales,Delhi NCR,Full-time,650000.0,1500000.0,2026-02-20,,open
+18,Regional Sales Manager,Sales,Bengaluru,Full-time,900000.0,2000000.0,2026-06-01,,open
+19,Sales Operations Analyst,Sales,Mumbai,Full-time,400000.0,950000.0,2026-04-02,2026-06-23,closed
+20,Tele-Sales Executive,Sales,Indore,Full-time,250000.0,550000.0,2026-10-19,2026-12-31,closed
+21,Pre-Sales Consultant,Sales,Mumbai,Full-time,700000.0,1700000.0,2026-08-24,2026-11-24,closed
+22,Channel Sales Manager,Sales,Hyderabad,Full-time,750000.0,1800000.0,2026-10-01,2026-12-06,closed
+23,Operations Executive,Operations,Hyderabad,Full-time,280000.0,600000.0,2026-02-23,,open
+24,Warehouse Coordinator,Operations,Mumbai,Full-time,260000.0,550000.0,2026-06-26,2026-10-28,closed
+25,Supply Chain Analyst,Operations,Hyderabad,Full-time,420000.0,950000.0,2026-05-30,2026-09-23,closed
+26,Operations Manager,Operations,Hyderabad,Full-time,600000.0,1400000.0,2026-02-21,2026-05-23,closed
+27,Logistics Coordinator,Operations,Mumbai,Full-time,300000.0,680000.0,2026-01-07,2026-04-11,closed
+28,Process Associate,Operations,Chennai,Full-time,250000.0,500000.0,2026-05-28,,open
+29,Inventory Analyst,Operations,Mumbai,Contract,350000.0,750000.0,2026-03-22,2026-06-29,closed
+30,Ops Team Lead,Operations,Mumbai,Full-time,450000.0,950000.0,2026-09-08,2026-11-06,closed
+31,Financial Analyst,Finance,Mumbai,Full-time,450000.0,1100000.0,2026-07-23,,open
+32,Accounts Executive,Finance,Bengaluru,Full-time,280000.0,620000.0,2026-10-05,2026-12-03,closed
+33,Internal Auditor,Finance,Delhi NCR,Full-time,550000.0,1300000.0,2026-09-09,2026-11-14,closed
+34,Finance Manager,Finance,Mumbai,Full-time,900000.0,2000000.0,2026-06-06,,open
+35,Payroll Specialist,Finance,Jaipur,Full-time,350000.0,750000.0,2026-05-12,,open
+36,HR Executive,Human Resources,Bengaluru,Full-time,300000.0,650000.0,2026-06-07,,open
+37,Talent Acquisition Spec.,Human Resources,Mumbai,Full-time,350000.0,800000.0,2026-01-29,,open
+38,HR Business Partner,Human Resources,Jaipur,Full-time,700000.0,1600000.0,2026-09-09,2026-12-01,closed
+39,Recruiting Coordinator,Human Resources,Chennai,Full-time,300000.0,600000.0,2026-03-01,,open
+40,Customer Support Exec.,Customer Support,Pune,Full-time,260000.0,520000.0,2026-02-13,2026-04-23,closed
+41,Technical Support Engineer,Customer Support,Delhi NCR,Full-time,320000.0,700000.0,2026-02-06,2026-06-03,closed
+42,Support Team Lead,Customer Support,Mumbai,Full-time,420000.0,850000.0,2026-09-01,2026-12-31,closed
+43,Customer Success Manager,Customer Support,Pune,Full-time,550000.0,1200000.0,2026-10-09,2026-12-24,closed
+44,Chat Support Executive,Customer Support,Hyderabad,Part-time,220000.0,420000.0,2026-10-17,2026-12-31,closed
+45,Field Service Executive,Customer Support,Indore,Full-time,280000.0,600000.0,2026-07-12,2026-09-09,closed
