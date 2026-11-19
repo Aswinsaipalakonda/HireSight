@@ -81,6 +81,13 @@ Clean the raw data (writes `data/processed/` plus an audit log):
 python scripts/clean_data.py
 ```
 
+Load the MySQL database (schema + data + verification):
+
+```bash
+cp .env.example .env   # set credentials; XAMPP default: root, empty password
+python scripts/load_database.py
+```
+
 ## Key metric definitions
 
 Every KPI (application-to-hire rate, offer acceptance rate, median time-to-hire, stage
@@ -100,7 +107,7 @@ basis, and filter behaviour. See `docs/metric_definitions.md` (Phase 7) and
 
 - [x] Phase 1 — Data foundation (generator, data dictionary, validation)
 - [x] Phase 2 — Data quality & cleaning (clean_data.py, audit log, processed datasets)
-- [ ] Phase 3 — MySQL schema & SQL queries
+- [x] Phase 3 — MySQL schema & SQL queries (6 documented query files, all validated)
 - [ ] Phase 4 — Python EDA notebook
 - [ ] Phase 5 — Excel workbook
 - [ ] Phase 6 — Power BI dashboard
