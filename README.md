@@ -69,8 +69,8 @@ python scripts/profile_data.py       # writes data/raw/profile_summary.md + vali
 
 1. **Data foundation** — generate and validate the synthetic dataset (done).
 2. **Data quality & cleaning** — profile, clean, and export processed data (done).
-3. **MySQL & SQL** — relational schema, load, documented analysis queries.
-4. **Python EDA** — notebook with cleaning checks, trends, funnel, and statistics.
+3. **MySQL & SQL** — relational schema, load, documented analysis queries (done: 47 queries in `database/queries/`).
+4. **Python EDA** — notebook with cleaning checks, trends, funnel, and statistics (done).
 5. **Excel workbook** — formulas, lookups, pivot tables, and charts.
 6. **Power BI dashboard** — five analytical pages with slicers and defined KPIs.
 7. **Insights & publish** — evidence-backed findings, validation, final README.
@@ -87,6 +87,15 @@ Load the MySQL database (schema + data + verification):
 cp .env.example .env   # set credentials; XAMPP default: root, empty password
 python scripts/load_database.py
 ```
+
+Run the EDA notebook (executes all cells with embedded outputs and charts):
+
+```bash
+python -m jupyter nbconvert --to notebook --execute --inplace notebooks/recruitment_eda.ipynb
+```
+
+The notebook also exports Power BI-ready tables to `data/processed/pbi/` (fact table,
+date dimension, and pre-aggregated summaries).
 
 ## Key metric definitions
 
@@ -108,7 +117,7 @@ basis, and filter behaviour. See `docs/metric_definitions.md` (Phase 7) and
 - [x] Phase 1 — Data foundation (generator, data dictionary, validation)
 - [x] Phase 2 — Data quality & cleaning (clean_data.py, audit log, processed datasets)
 - [x] Phase 3 — MySQL schema & SQL queries (6 documented query files, all validated)
-- [ ] Phase 4 — Python EDA notebook
+- [x] Phase 4 — Python EDA notebook
 - [ ] Phase 5 — Excel workbook
 - [ ] Phase 6 — Power BI dashboard
 - [ ] Phase 7 — Insights report & final validation
