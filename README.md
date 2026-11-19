@@ -60,12 +60,18 @@ python scripts/profile_data.py       # writes data/raw/profile_summary.md + vali
 ## Analysis pipeline (planned phases)
 
 1. **Data foundation** — generate and validate the synthetic dataset (done).
-2. **Data quality & cleaning** — profile, clean, and export processed data.
+2. **Data quality & cleaning** — profile, clean, and export processed data (done).
 3. **MySQL & SQL** — relational schema, load, documented analysis queries.
 4. **Python EDA** — notebook with cleaning checks, trends, funnel, and statistics.
 5. **Excel workbook** — formulas, lookups, pivot tables, and charts.
 6. **Power BI dashboard** — five analytical pages with slicers and defined KPIs.
 7. **Insights & publish** — evidence-backed findings, validation, final README.
+
+Clean the raw data (writes `data/processed/` plus an audit log):
+
+```bash
+python scripts/clean_data.py
+```
 
 ## Key metric definitions
 
@@ -85,7 +91,7 @@ basis, and filter behaviour. See `docs/metric_definitions.md` (Phase 7) and
 ## Status
 
 - [x] Phase 1 — Data foundation (generator, data dictionary, validation)
-- [ ] Phase 2 — Data quality & cleaning
+- [x] Phase 2 — Data quality & cleaning (clean_data.py, audit log, processed datasets)
 - [ ] Phase 3 — MySQL schema & SQL queries
 - [ ] Phase 4 — Python EDA notebook
 - [ ] Phase 5 — Excel workbook

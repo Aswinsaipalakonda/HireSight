@@ -176,3 +176,20 @@ See `data/raw/generation_metadata.json` for the seed, exact row counts, outcome
 distribution, injected quality-issue counts, near-duplicate candidate pairs, and the
 list of intentionally disordered stage-event IDs. Regenerate identical data with
 `python scripts/generate_dataset.py` (seed = 42).
+
+## Processed layer (data/processed/)
+
+The processed tables follow the same schema with these intentional differences
+(see `data/processed/cleaning_log.md` for the full audit):
+
+- All category fields standardized to the canonical casing/values listed above.
+- `recruitment_sources` has 8 rows: a new `source_id = 8` ("Unknown / Not
+  Recorded", category `unclassified`) absorbs the 15 applications with a missing
+  source. Exclude source 8 from channel effectiveness comparisons.
+- `candidates` has 3,500 rows: the 12 near-duplicate profiles are merged into
+  their originals (their applications' `candidate_id` reassigned).
+- `screening_results` has 10 fewer rows (out-of-range scores quarantined to
+  `processed/quarantine/screening_out_of_range.csv`).
+- `stage_duration_hours` recomputed from the repaired, ordered event sequence.
+- `applications` keeps all 8,000 rows; optional NULLs in `candidates`
+  (`experience_years`, `highest_education`) are retained, not imputed.

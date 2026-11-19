@@ -1,0 +1,11 @@
+screening_id,application_id,screening_date,ai_score,screening_decision,score_version,quarantine_reason
+86,93,2026-06-25 03:46:52.040801039,131.1,Review,v1.0,ai_score outside 0-100
+2047,2152,2026-11-20 02:38:51.271239984,138.41,Review,v2.1,ai_score outside 0-100
+2389,2518,2026-10-06 06:43:04.761040941,-1.36,Review,v2.1,ai_score outside 0-100
+3816,4023,2026-11-06 17:11:57.368603778,-9.28,Review,v2.1,ai_score outside 0-100
+3936,4153,2026-03-02 13:47:57.573936573,-2.09,Review,v1.0,ai_score outside 0-100
+5142,5433,2026-07-30 22:54:59.118275121,136.52,Review,v2.1,ai_score outside 0-100
+5602,5922,2026-02-27 06:57:55.731086406,129.52,Review,v1.0,ai_score outside 0-100
+5881,6219,2026-11-22 14:03:16.734066607,-5.48,Review,v2.1,ai_score outside 0-100
+5957,6298,2026-09-12 11:58:19.813388781,-3.76,Review,v2.1,ai_score outside 0-100
+6578,6958,2026-11-09 11:24:22.234547978,-2.3,Review,v2.1,ai_score outside 0-100
