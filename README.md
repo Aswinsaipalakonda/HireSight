@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/logo.png" alt="HireSight — Recruitment Analytics & Intelligence" width="480">
+</p>
+
 # HireSight — Recruitment Analytics & Intelligence Platform
 
 HireSight is an end-to-end recruitment analytics portfolio project. It transforms a
@@ -36,7 +40,11 @@ HireSight/
 ├── reports/
 │   ├── data_dictionary.md  Field-by-field definitions
 │   └── business_insights.md (Phase 7)
-└── docs/                   Metric definitions and methodology (Phase 7)
+├── docs/                   Metric definitions and methodology (Phase 7)
+└── images/
+    ├── logo.png            Project logo (README header)
+    └── icon.png            Project icon — reserved as favicon for the optional
+                            read-only web interface (PRD FR-10)
 ```
 
 ## Setup
